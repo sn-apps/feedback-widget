@@ -1,0 +1,35 @@
+feedback-widget/
+├── client/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── ui/
+│   │   │   ├── feedback-form.tsx
+│   │   │   ├── feedback-display.tsx
+│   │   │   └── star-rating.tsx
+│   │   ├── hooks/
+│   │   │   ├── use-mobile.tsx
+│   │   │   └── use-toast.ts
+│   │   ├── lib/
+│   │   │   ├── queryClient.ts
+│   │   │   └── utils.ts
+│   │   ├── pages/
+│   │   │   ├── feedback.tsx
+│   │   │   └── not-found.tsx
+│   │   ├── App.tsx
+│   │   ├── index.css
+│   │   └── main.tsx
+│   └── index.html
+├── server/
+│   ├── index.ts
+│   ├── routes.ts
+│   ├── storage.ts
+│   └── vite.ts
+├── shared/
+│   └── schema.ts
+├── package.json
+├── tsconfig.json
+├── tailwind.config.ts
+├── postcss.config.js
+├── vite.config.ts
+├── components.json
+└── drizzle.config.ts
